@@ -1,0 +1,15 @@
+[package]
+name = "totp"
+version = "0.1.0"
+edition = "2018"
+authors = ["backwards-rat-race <backwards-rat-race@users.noreply.github.com>"]
+repository = "https://github.com/backwards-rat-race/totp-rs"
+license = "MIT"
+description = "Generates a TOTP code for a given key"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+data-encoding = "2.1.2"
+hmac-sha1 = "0.1.3"
